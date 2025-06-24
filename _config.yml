@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Jupyter Book Template # Change this to your book title.
+title: Nuclear Energy - A Data Analysis # Change this to your book title.
 author: Yen-Chia Hsu # Change this to your name (or your team/organization name).
 
 # Force re-execution of notebooks on each build.
@@ -25,6 +25,9 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  logo: _static/images/logo.png
+  theme_options:
+    logo_only: true
 
 # Add launch buttons
 launch_buttons:
