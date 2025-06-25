@@ -18,13 +18,15 @@ In our datastory a variety of sources have been used to paint a picture of nucle
 
 ## Data Parsing
 
-Two of our datasets were only available as `html` on the web page. To parse the data we first copied the table `html` (using inspect), and used the *pandas* function `pd.read_html`, and `pd.to_csv` to convert the `html` tables to `csv` files. For some data the variable names were changed for better readibility.
+Two of our datasets were only available as `html` on the web page. To parse the data we first copied the table `html` (using inspect), and used the *pandas* function `pd.read_html`, and `pd.to_csv` to convert the `html` tables to `csv` files. The other files datasets were all valid `csv` files which did not require parsing.
 
 ## Data Cleaning
 
+In this project, several data cleaning and preprocessing techniques were applied to prepare a global sustainable energy dataset for analysis and visualization. First, data was grouped by country (`Entity`) to consolidate yearly records. Aggregation functions like `mean`, `sum`, `min`, and `max` were applied to compute meaningful statistics such as average electricity access or total nuclear energy production. After aggregation, column names were flattened and reformatted for clarity. The index was reset to keep the dataset tidy, and columns were renamed to more descriptive labels. Unnecessary columns were removed, and consistent naming was applied throughout.
 
 
 ## Used Variables
+
 
 
 
@@ -50,8 +52,12 @@ In the *Global Data on Sustainable Energy (2000-2020)*, we calculate the percent
 
 $\text{Nuclear_Electricity_Percentage} = \left( \frac{E_{\text{nuclear}}}{E_{\text{fossil}} + E_{\text{nuclear}} + E_{\text{renewables}}} \right) \times 100$
 
-waar:
+With:
 
 - $ E_{\text{nuclear}} $ = elektriciteit uit kernenergie (TWh)
 - $ E_{\text{fossil}} $ = elektriciteit uit fossiele brandstoffen (TWh)
 - $ E_{\text{renewables}} $ = elektriciteit uit hernieuwbare bronnen (TWh)
+
+### Changing Column Units
+
+Throughout the data-analysis, some column units where changed. An example of this is dividing every datapoint in the column by $1,000,000$ and thus, changing the unit of the column in milions of $x$. This increases readability. 
