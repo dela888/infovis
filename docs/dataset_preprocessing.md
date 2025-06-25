@@ -25,7 +25,12 @@ Two of our datasets were only available as `html` on the web page. To parse the 
 
 
 ## Used Variables
-
+- Continuous / Ratio Variables: `Electricity from nuclear (TWh)`, `Electricity from fossil fuels (TWh)`, `Electricity from renewables (TWh)`, `Nuclear_Electricity_Percentage`, `Capital (Capital costs)`, `OM (O&M costs)`, `Fuel_th (Fuel thermal costs)`, `Fuel_el (Fuel electricity costs)`, `Carbon (Carbon costs)`, `CHP_revenue (CHP heat revenues)`, `LCOE (Levelized Cost of Electricity)`, `Savings (%)`, `Deaths per TWh of electricity production`, `bwr_average_burnup`, `pwr_average_burnup`, `bwr_tons_uranium`, `pwr_tons_uranium`, `total_average_burnup`
+- Continuous / Interval: `Latitude & Longitude` 
+- Discrete / Ordinal Variables: `INES Level`
+- Discrete / Nominal Variables: `Entity (Country Name)`, `Incident`, `Location`, `Category`, `hover_text`, `Category (Energy type: Nuclear, Wind, Solar, etc.)`, `Country`, `Technology (Wind, Solar, Gas, Coal)`, `Hover Text`, `Entity (Energy Source)`, 
+- Discrete / Interval Variables: `Year` , `Date`,`year`, 
+- Discrete / Ratio Variables: `Numbers of Direct Deaths`, `Numbers of InDirect Deaths`
 
 
 ## Aggregations
