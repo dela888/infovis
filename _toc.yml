@@ -5,6 +5,7 @@ format: jb-book
 root: docs/introduction.md
 chapters:
 - file: docs/dataset_preprocessing
+- file: docs/nuclear_data
 - file: docs/datastory1
 - file: docs/datastory2
 - file: docs/reflection
