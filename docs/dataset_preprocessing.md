@@ -52,6 +52,6 @@ $\text{Nuclear_Electricity_Percentage} = \left( \frac{E_{\text{nuclear}}}{E_{\te
 
 waar:
 
-- $ E_{\text{nuclear}} $ = elektriciteit uit kernenergie (TWh)  
-- $ E_{\text{fossil}} $ = elektriciteit uit fossiele brandstoffen (TWh)  
-- $ E_{\text{renewables}} $ = elektriciteit uit hernieuwbare bronnen (TWh)  
+- $ E_{\text{nuclear}} $ = elektriciteit uit kernenergie (TWh)
+- $ E_{\text{fossil}} $ = elektriciteit uit fossiele brandstoffen (TWh)
+- $ E_{\text{renewables}} $ = elektriciteit uit hernieuwbare bronnen (TWh)
