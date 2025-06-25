@@ -65,4 +65,4 @@ With:
 
 ### Changing Column Units
 
-Throughout the data-analysis, some column units where changed. An example of this is dividing every datapoint in the column by $1,000,000$ and thus, changing the unit of the column in milions of $x$. This increases readability. 
+Throughout the data-analysis, some column units where changed. An example of this is dividing every datapoint in the column by $1,000,000$ and thus, changing the unit of the column in milions of $x$. This increases readability.     
