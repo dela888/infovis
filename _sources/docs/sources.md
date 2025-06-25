@@ -2,7 +2,7 @@
 
 - simona
 - stijn
-- dela
-- djenna
+- delaram
+- djenna 
 
 TRUST US!!
