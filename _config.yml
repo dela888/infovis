@@ -3,6 +3,8 @@
 
 title: Nuclear Energy
 author: Yen-Chia Hsu # Change this to your name (or your team/organization name).
+logo: docs/_static/images/logo.png
+
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -23,9 +25,6 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  logo: _static/images/logo.png
-  theme_options:
-    logo_only: true
   use_issues_button: true
   use_repository_button: true
 
