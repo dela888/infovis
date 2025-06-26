@@ -1,13 +1,9 @@
 # Sources
 
-- Ansh Tanwar. (2023). Global Data on Sustainable Energy (2000-2020) [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/6327347 
-- Global Data on Sustainable Energy (2000-2020). (2023, August 19). Kaggle. https://www.kaggle.com/datasets/anshtanwar/global-data-on-sustainable-energy
-- Impacts of energy production. (2023, July 14). Kaggle. https://www.kaggle.com/datasets/whenamancodes/impacts-of-energy-production
-- Levelised Cost of Electricity Calculator. (2020, December 9). Iea. https://www.iea.org/data-and-statistics/data-tools/levelised-cost-of-electricity-calculator
-- Major nuclear plant incidents (1957- 2011). (2023b, November 25). Kaggle. https://www.kaggle.com/datasets/mauryansshivam/major-nuclear-plant-incidents-1957-2011
-- Nuclear energy datasets. (2024, June 17). Kaggle. https://www.kaggle.com/datasets/alistairking/nuclear-energy-datasets
-- Nuclear & Uranium. (2021, March 30). Eia. https://www.eia.gov/nuclear/spent_fuel/ussnftab3.php
-
-
-
-TRUST US!!
+- Houghton, J. (2005). Global warming. Reports on progress in physics, 68(6), 1343.
+- Wang, M., Strokal, M., Burek, P., Kroeze, C., Ma, L., & Janssen, A. B. (2019). Excess nutrient loads to Lake Taihu: Opportunities for nutrient reduction. Science of the Total Environment, 664, 865-873.
+- Dartnell, L. R. (2011). Ionizing radiation and life. Astrobiology, 11(6), 551-582.
+- Liu, J., Yang, H., Gosling, S. N., Kummu, M., Flörke, M., Pfister, S., ... & Oki, T. (2017). Water scarcity assessments in the past, present, and future. Earth's future, 5(6), 545-559
+- National Research Council. (2005). Population, land use, and environment: Research directions.
+- Rankin, W. J. (2011). Minerals, metals and sustainability: meeting future material needs. CSIRO publishing.
+- Aleksandrova, A. Y., & Timofeeva, S. S. (2021, September). Impact of mining of common minerals on the environment and public health. In IOP Conference Series: Earth and Environmental Science (Vol. 848, No. 1, p. 012136). IOP Publishing.
