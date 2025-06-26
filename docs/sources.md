@@ -7,3 +7,4 @@
 - National Research Council. (2005). Population, land use, and environment: Research directions.
 - Rankin, W. J. (2011). Minerals, metals and sustainability: meeting future material needs. CSIRO publishing.
 - Wang, M., Strokal, M., Burek, P., Kroeze, C., Ma, L., & Janssen, A. B. (2019). Excess nutrient loads to Lake Taihu: Opportunities for nutrient reduction. Science of the Total Environment, 664, 865-873.
+- Aleksandrova, A. Y., & Timofeeva, S. S. (2021, September). Impact of mining of common minerals on the environment and public health. In IOP Conference Series: Earth and Environmental Science (Vol. 848, No. 1, p. 012136). IOP Publishing.
