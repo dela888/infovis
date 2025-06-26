@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Nuclear Energy
-author: Yen-Chia Hsu # Change this to your name (or your team/organization name).
+author: Stijn Bosch, Djenna Jacobs, Simona Petrova and Delaram Zaker # Change this to your name (or your team/organization name).
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
