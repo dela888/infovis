@@ -419,21 +419,19 @@ document.write(`
 <div class="cell_output docutils container">
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
 <span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
-<span class="n">File</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">folders</span><span class="o">/</span><span class="n">qj</span><span class="o">/</span><span class="n">wyb9ssk93x96vj151llh_qwh0000gn</span><span class="o">/</span><span class="n">T</span><span class="o">/</span><span class="n">ipykernel_66618</span><span class="o">/</span><span class="mf">2175881116.</span><span class="n">py</span><span class="p">:</span><span class="mi">17</span>
+<span class="n">File</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">folders</span><span class="o">/</span><span class="n">qj</span><span class="o">/</span><span class="n">wyb9ssk93x96vj151llh_qwh0000gn</span><span class="o">/</span><span class="n">T</span><span class="o">/</span><span class="n">ipykernel_67063</span><span class="o">/</span><span class="mf">1428435189.</span><span class="n">py</span><span class="p">:</span><span class="mi">5</span>
 <span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># # import pandas as pd</span>
 <span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="c1"># # import plotly.express as px</span>
 <span class="g g-Whitespace">      </span><span class="mi">3</span> 
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="c1"># # Load the sustainable energy data</span>
+<span class="ne">----&gt; </span><span class="mi">5</span> <span class="n">energy_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;nuclear_data/global-data-on-sustainable-energy (1).csv&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">7</span> <span class="c1"># # # Calculate the percentage of nuclear electricity</span>
+<span class="g g-Whitespace">      </span><span class="mi">8</span> <span class="c1"># # energy_df[&#39;Nuclear_Electricity_Percentage&#39;] = (energy_df[&#39;Electricity from nuclear (TWh)&#39;] /</span>
+<span class="g g-Whitespace">      </span><span class="mi">9</span> <span class="c1"># #                                              (energy_df[&#39;Electricity from fossil fuels (TWh)&#39;] +</span>
    <span class="p">(</span><span class="o">...</span><span class="p">)</span>
 <span class="g g-Whitespace">     </span><span class="mi">15</span> 
 <span class="g g-Whitespace">     </span><span class="mi">16</span> <span class="c1"># # Load the nuclear incidents data</span>
-<span class="ne">---&gt; </span><span class="mi">17</span> <span class="n">incidents_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;nuclear_data/Nuclear Incidents - Sheet3.csv&quot;</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">19</span> <span class="c1"># # # Clean and prepare incidents data</span>
-<span class="g g-Whitespace">     </span><span class="mi">20</span> <span class="c1"># # incidents_df.columns = incidents_df.columns.str.strip()</span>
-<span class="g g-Whitespace">     </span><span class="mi">21</span> <span class="c1"># # incidents_df.columns.values[6] = &quot;INES level&quot;</span>
-   <span class="p">(</span><span class="o">...</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">115</span> 
-<span class="g g-Whitespace">    </span><span class="mi">116</span> <span class="c1"># # Load the sustainable energy data</span>
-<span class="g g-Whitespace">    </span><span class="mi">117</span> <span class="n">energy_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;nuclear_data/global-data-on-sustainable-energy (1).csv&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">17</span> <span class="n">incidents_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;nuclear_data/Nuclear Incidents - Sheet3.csv&quot;</span><span class="p">)</span>
 
 <span class="ne">NameError</span>: name &#39;pd&#39; is not defined
 </pre></div>
@@ -473,21 +471,19 @@ document.write(`
 
     <span class="p">[</span><span class="o">...</span> <span class="n">skipping</span> <span class="n">hidden</span> <span class="mi">1</span> <span class="n">frame</span><span class="p">]</span>
 
-<span class="n">File</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">folders</span><span class="o">/</span><span class="n">qj</span><span class="o">/</span><span class="n">wyb9ssk93x96vj151llh_qwh0000gn</span><span class="o">/</span><span class="n">T</span><span class="o">/</span><span class="n">ipykernel_66618</span><span class="o">/</span><span class="mf">2175881116.</span><span class="n">py</span><span class="p">:</span><span class="mi">17</span>
+<span class="n">File</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">folders</span><span class="o">/</span><span class="n">qj</span><span class="o">/</span><span class="n">wyb9ssk93x96vj151llh_qwh0000gn</span><span class="o">/</span><span class="n">T</span><span class="o">/</span><span class="n">ipykernel_67063</span><span class="o">/</span><span class="mf">1428435189.</span><span class="n">py</span><span class="p">:</span><span class="mi">5</span>
 <span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># # import pandas as pd</span>
 <span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="c1"># # import plotly.express as px</span>
 <span class="g g-Whitespace">      </span><span class="mi">3</span> 
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="c1"># # Load the sustainable energy data</span>
+<span class="ne">----&gt; </span><span class="mi">5</span> <span class="n">energy_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;nuclear_data/global-data-on-sustainable-energy (1).csv&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">7</span> <span class="c1"># # # Calculate the percentage of nuclear electricity</span>
+<span class="g g-Whitespace">      </span><span class="mi">8</span> <span class="c1"># # energy_df[&#39;Nuclear_Electricity_Percentage&#39;] = (energy_df[&#39;Electricity from nuclear (TWh)&#39;] /</span>
+<span class="g g-Whitespace">      </span><span class="mi">9</span> <span class="c1"># #                                              (energy_df[&#39;Electricity from fossil fuels (TWh)&#39;] +</span>
    <span class="p">(</span><span class="o">...</span><span class="p">)</span>
 <span class="g g-Whitespace">     </span><span class="mi">15</span> 
 <span class="g g-Whitespace">     </span><span class="mi">16</span> <span class="c1"># # Load the nuclear incidents data</span>
-<span class="ne">---&gt; </span><span class="mi">17</span> <span class="n">incidents_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;nuclear_data/Nuclear Incidents - Sheet3.csv&quot;</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">19</span> <span class="c1"># # # Clean and prepare incidents data</span>
-<span class="g g-Whitespace">     </span><span class="mi">20</span> <span class="c1"># # incidents_df.columns = incidents_df.columns.str.strip()</span>
-<span class="g g-Whitespace">     </span><span class="mi">21</span> <span class="c1"># # incidents_df.columns.values[6] = &quot;INES level&quot;</span>
-   <span class="p">(</span><span class="o">...</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">115</span> 
-<span class="g g-Whitespace">    </span><span class="mi">116</span> <span class="c1"># # Load the sustainable energy data</span>
-<span class="g g-Whitespace">    </span><span class="mi">117</span> <span class="n">energy_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;nuclear_data/global-data-on-sustainable-energy (1).csv&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">17</span> <span class="n">incidents_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;nuclear_data/Nuclear Incidents - Sheet3.csv&quot;</span><span class="p">)</span>
 
 <span class="ne">NameError</span>: name &#39;pd&#39; is not defined
 </pre></div>
