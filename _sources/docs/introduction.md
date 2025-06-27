@@ -6,3 +6,5 @@ Due to historical accidents, such as Chernobyl, concerns over radioactive waste 
 
 In a time with increasing demand for global energy and urgent climate goals, nuclear energy is gaining attention again as a possible solution to the problems. Our data story aims to explore and show the two sides of nuclear energy and to demonstrate that nuclear energy could be the start of a cleaner power 
 generation, while also showing the challenges of receiving the energy.
+
+The code for our datastory can be viewed on [https://github.com/dela888/infovis](https://github.com/dela888/infovis)
